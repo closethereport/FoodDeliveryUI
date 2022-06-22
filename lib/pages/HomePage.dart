@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../Widgets/AppBarWidget.dart';
 import '../Widgets/CategoriesWidget.dart';
+import '../Widgets/NewestItemsWidget.dart';
 import '../Widgets/PopularItemsWidget.dart';
 
 class HomePage extends StatelessWidget {
@@ -76,7 +77,39 @@ class HomePage extends StatelessWidget {
             ),
           ),
           PopularItemsWidget(),
+          Padding(
+            padding: EdgeInsets.only(top: 20, left: 10),
+            child: Text(
+              "Новое в меню",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+              ),
+            ),
+          ),
+          NewestItemsWidget(),
         ],
+      ),
+      //drawer: ,
+      floatingActionButton: Container(
+        decoration:
+            BoxDecoration(borderRadius: BorderRadius.circular(20), boxShadow: [
+          BoxShadow(
+            color: Colors.grey.withOpacity(0.5),
+            spreadRadius: 2,
+            blurRadius: 10,
+            offset: Offset(0, 3),
+          ),
+        ]),
+        child: FloatingActionButton(
+          onPressed: () {},
+          child: Icon(
+            CupertinoIcons.cart,
+            size: 28,
+            color: Colors.red,
+          ),
+          backgroundColor: Colors.white,
+        ),
       ),
     );
   }

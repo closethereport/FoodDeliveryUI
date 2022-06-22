@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../Widgets/AppBarWidget.dart';
 import '../Widgets/CategoriesWidget.dart';
+import '../Widgets/PopularItemsWidget.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -67,13 +68,14 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(top: 20, left: 10),
             child: Text(
-              "Категории",
+              "Популярное",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
               ),
             ),
           ),
+          PopularItemsWidget(),
         ],
       ),
     );

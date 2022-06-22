@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../Widgets/AppBarWidget.dart';
+import '../Widgets/CategoriesWidget.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -61,11 +62,18 @@ class HomePage extends StatelessWidget {
                 fontSize: 20,
               ),
             ),
-          )
-
-
-          Categories.Widget(),
-
+          ),
+          CategoriesWidget(),
+          Padding(
+            padding: EdgeInsets.only(top: 20, left: 10),
+            child: Text(
+              "Категории",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+              ),
+            ),
+          ),
         ],
       ),
     );

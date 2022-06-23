@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../Widgets/AppBarWidget.dart';
 import '../Widgets/CategoriesWidget.dart';
+import '../Widgets/DrawerWidget.dart';
 import '../Widgets/NewestItemsWidget.dart';
 import '../Widgets/PopularItemsWidget.dart';
 
@@ -90,7 +91,7 @@ class HomePage extends StatelessWidget {
           NewestItemsWidget(),
         ],
       ),
-      //drawer: ,
+      drawer: DrawerWidget(),
       floatingActionButton: Container(
         decoration:
             BoxDecoration(borderRadius: BorderRadius.circular(20), boxShadow: [

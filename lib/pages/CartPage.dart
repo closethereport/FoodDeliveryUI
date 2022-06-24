@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fooddeliveryui/Widgets/AppBarWidget.dart';
 
+import '../Widgets/CartBottomNavBar.dart';
 import '../Widgets/DrawerWidget.dart';
 
 class CartPage extends StatelessWidget {

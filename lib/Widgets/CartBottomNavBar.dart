@@ -30,24 +30,26 @@ class CartBottomNavBar extends StatelessWidget {
                 ),
               ),
               ElevatedButton(
-                  onPressed: () {},
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all(Colors.red),
-                    padding: MaterialStateProperty.all(
-                      EdgeInsets.symmetric(
-                        vertical: 15,
-                        horizontal: 20,
-                      ),
-                    ),
-                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                      RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20),
-                      ),
+                onPressed: () {},
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Colors.red),
+                  padding: MaterialStateProperty.all(
+                    EdgeInsets.symmetric(
+                      vertical: 15,
+                      horizontal: 20,
                     ),
                   ),
-                  child: Text("Сделать заказ",
-                      style:
-                          TextStyle(fontSize: 16, fontWeight: FontWeight.bold)))
+                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                    RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                  ),
+                ),
+                child: Text(
+                  "Сделать заказ",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                ),
+              )
             ],
           ),
         ]),

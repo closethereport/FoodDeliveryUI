@@ -8,7 +8,6 @@ class DrawerWidget extends StatelessWidget {
       child: ListView(
         children: [
           DrawerHeader(
-            // padding: EdgeInsets.zero,
             child: UserAccountsDrawerHeader(
               decoration: BoxDecoration(
                 color: Colors.red,

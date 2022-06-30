@@ -9,7 +9,6 @@ class PopularItemsWidget extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: 15, horizontal: 15),
         child: Row(
           children: [
-            //for (int i = 0; i < 10; i++)
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 7),
               child: Container(

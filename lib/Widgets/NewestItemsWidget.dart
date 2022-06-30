@@ -9,7 +9,6 @@ class NewestItemsWidget extends StatelessWidget {
       child: Padding(
         padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
         child: Column(children: [
-          //for (int i = 0; i < 10; i++)
           Padding(
             padding: EdgeInsets.symmetric(vertical: 10),
             child: Container(
@@ -56,7 +55,6 @@ class NewestItemsWidget extends StatelessWidget {
                         "Попробуйте нашу пиццу, созданную из первоклассных ингредиентов",
                         style: TextStyle(
                           fontSize: 16,
-                          //fontWeight: FontWeight.bold,
                         ),
                       ),
                       RatingBar.builder(
@@ -138,7 +136,6 @@ class NewestItemsWidget extends StatelessWidget {
                         "Отличная булочка, свежие овощи, пропеченная котлета",
                         style: TextStyle(
                           fontSize: 16,
-                          //fontWeight: FontWeight.bold,
                         ),
                       ),
                       RatingBar.builder(
@@ -219,7 +216,6 @@ class NewestItemsWidget extends StatelessWidget {
                         "Второе блюдо из риса и специй с добавлением мяса, рыбы, яиц или овощей",
                         style: TextStyle(
                           fontSize: 16,
-                          //fontWeight: FontWeight.bold,
                         ),
                       ),
                       RatingBar.builder(
@@ -300,7 +296,6 @@ class NewestItemsWidget extends StatelessWidget {
                         "Освежающий напиток после тяжелого рабочего дня",
                         style: TextStyle(
                           fontSize: 16,
-                          //fontWeight: FontWeight.bold,
                         ),
                       ),
                       RatingBar.builder(
@@ -381,7 +376,6 @@ class NewestItemsWidget extends StatelessWidget {
                         "Смесь зелени овощной микс (руккола и.т.д)",
                         style: TextStyle(
                           fontSize: 16,
-                          //fontWeight: FontWeight.bold,
                         ),
                       ),
                       RatingBar.builder(

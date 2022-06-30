@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:fooddeliveryui/Widgets/AppBarWidget.dart';
 
+import '../Widgets/ItemBottomNavBar.dart';
+
 class ItemPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
